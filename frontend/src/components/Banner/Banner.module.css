@@ -1,0 +1,76 @@
+.banner {
+    background-color: #0e053a;
+    color: white;
+}
+
+.inner {
+    padding: 2.5rem 0;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: clamp(1.875rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: clamp(1.125rem, 2vw, 1.25rem);
+    color: #e0e0e0;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+.actions {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btnPrimary {
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    color: white;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border: none;
+    cursor: pointer;
+
+}
+
+.btnPrimary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.btnSecondary {
+    background: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.btnSecondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+
+}

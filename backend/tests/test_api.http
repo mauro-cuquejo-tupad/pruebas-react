@@ -1,0 +1,28 @@
+@baseUrl = http://127.0.0.1:8000
+
+### 1. Crear un Weapon
+POST {{baseUrl}}/weapons/
+Content-Type: application/json
+
+{
+    "name": "Mjolnir"
+}
+
+### 2. Consultar el Weapon creado por ID
+GET {{baseUrl}}/weapons/1
+Accept: application/json
+
+### 3. Crear un Hero
+POST {{baseUrl}}/heroes/
+Content-Type: application/json
+
+{
+    "name": "Thor",
+    "secret_name": "Thor Odinson",
+    "age": 1000
+}
+
+### 4. Consultar el Hero creado por ID
+GET {{baseUrl}}/heroes/1
+Accept: application/json
+
